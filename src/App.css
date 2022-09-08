@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F9F9;
 }
 
 .App-logo {
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F9F9F9;
 }
 
 .App-link {
@@ -34,5 +36,234 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 36px;
+}
+
+/**** MAIN ****/
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/**** HOMEPAGE ****/
+
+.homepage{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header-img{
+  height: 100vh;
+  width: auto;
+}
+
+/**** ABOUT PAGE ****/
+.about{
+  width: 70%;
+  margin: 0 auto -10% auto;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-text{
+  width: 50%;
+}
+
+.about-img{
+  max-width: 40wh;
+  height: auto;
+}
+
+/**** WORK ****/
+
+.work{
+  text-align: left;
+  width: 70%;
+  margin: 10% auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.work h1{
+  text-align: right;
+}
+
+.company-logo{
+  height: 20px;
+  margin-left: 0.5%;
+}
+
+.company-header{
+  display: flex;
+  align-items: center;
+}
+
+/**** PROJECTS ****/
+
+.projects{
+  text-align: left;
+  width: 70%;
+  margin: 10% auto 0 auto;
+  height: 60vh;
+}
+
+/**** CONTACT ****/
+.contact{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 35%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email-btn{
+  margin-left: 6px;
+}
+
+/**** NAVBAR ****/
+
+nav {
+  border-bottom: 1px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #F9F9F9;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 24px 72px;
+}
+
+nav a:hover {
+  color: #66BCB1;
+}
+
+/**** SOCIALS ****/
+
+.socials {
+  text-align: right;
+  position: fixed;
+  right: 1%;
+  bottom: 2%;
+  width: 5%;
+}
+
+.socials ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0%;
+}
+
+.socials li {
+  padding-top: 3%;
+}
+
+.icon{
+  height: 30px;
+}
+
+.copyright{
+  color: black;
+}
+
+.copyright-container{
+  position: relative;
+  bottom: 2%;
+  margin: auto;
+  width: 100%;
+}
+
+@media (max-width: 1600px){
+  .homepage{
+    width: 80%
+  }
+  .about{
+    width: 80%
+  }
+  .work{
+    width: 80%;
+  }
+  .projects{
+    width: 80%;
+  }
+  .contact{
+    width: 80%;
+  }
+  .about-text{
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 1350px){
+  .homepage{
+    width: 90%;
+  }
+  .about{
+    width: 90%
+  }
+  .work{
+    width: 90%;
+  }
+  .projects{
+    width: 90%;
+  }
+  .contact{
+    width: 90%;
+  }
+  .about-text{
+    width: 45%;
+  }
+}
+
+@media(max-height: 750px){
+  .header-img{
+    height: 750px;
   }
 }
