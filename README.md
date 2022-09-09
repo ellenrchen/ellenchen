@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Ellen Chen - Personal Website
+
+This site was created to gain experience building a React app from scratch. You can check it out at https://ellenrchen.github.io/ellenchen/#home :)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
