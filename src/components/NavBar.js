@@ -5,19 +5,19 @@ const NavBar = () => (
   <nav>
     <ul>
       <li>
-        <Link to="/#home">Home</Link>
+        <Link to="/ellenchen#home">Home</Link>
       </li>
       <li>
-        <Link to="/#about">About</Link>
+        <Link to="/ellenchen#about">About</Link>
       </li>
       <li>
-        <Link to="/#work">Work</Link>
+        <Link to="/ellenchen#work">Work</Link>
       </li>
       <li>
-        <Link to="/#projects">Projects</Link>
+        <Link to="/ellenchen#projects">Projects</Link>
       </li>
       <li>
-        <Link to="/#contact">Contact</Link>
+        <Link to="/ellenchen#contact">Contact</Link>
       </li>
     </ul>
   </nav>
