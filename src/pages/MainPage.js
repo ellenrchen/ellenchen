@@ -12,8 +12,6 @@ const MainPage = () => (
     <div id="work"><WorkPage/></div>
     <div id="projects"><ProjectsPage/></div>
     <div id="contact"><ContactPage/></div>
-    {/* <ProjectsPage/>
-    <ContactPage/> */}
   </div>
 );
 

@@ -14,13 +14,6 @@ function App() {
           <Routes>
             <Route path="/ellenchen" element={<MainPage />} exact />
           </Routes>
-          {/* <Routes>
-            <Route path="/" element={<MainPage />} exact />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/work" element={<WorkPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes> */}
         </div>
         <Socials/>
         <Copyright/>
