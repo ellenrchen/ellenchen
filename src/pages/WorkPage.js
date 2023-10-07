@@ -10,6 +10,27 @@ const WorkPage = () => (
         <h3>DoorDash</h3>
         <img class="company-logo" src={doordash} alt="doordash" />
       </div>
+      <p>Software Engineer, Mx Selection + Onboarding</p>
+      {/* <ul>
+        <li>
+          Built React UI to display menu audit history for merchants and
+          internal teams to reduce operational overhead
+        </li>
+        <li>
+          Connect self-serve menu editor web app to GraphQL API in BFF to query
+          menu audit history from Snowflake DB
+        </li>
+        <li>
+          Build and conduct unit and snapshot tests using Jest to ensure proper
+          functionality across different cases, improving menu reliability by 1%
+        </li>
+      </ul> */}
+    </div>
+    <div class="work-item">
+      <div class="company-header">
+        <h3>DoorDash</h3>
+        <img class="company-logo" src={doordash} alt="doordash" />
+      </div>
       <p>Software Engineer, Intern</p>
       <ul>
         <li>

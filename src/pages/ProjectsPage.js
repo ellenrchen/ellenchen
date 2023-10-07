@@ -4,6 +4,18 @@ const ProjectsPage = () => (
   <div class="projects">
     <h1>Projects</h1>
     <div class="project-item">
+      <h3>Locavor</h3>
+      <p>CTO/Co-Founder</p>
+      <ul>
+        <li>
+          Designed and built React Native mobile application to connect local suppliers with restaurants
+        </li>
+        <li>Selected as semi-finalist for TCU Values and Ventures Competition</li>
+        <li>Acccepted as part of UChicago Launch Accelerator</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
       <h3>compileHer</h3>
       <p>Web Developer</p>
       <ul>

@@ -6,8 +6,7 @@ const AboutPage = () => (
     <div class="about-text">
     <h1>Hello!</h1>
     <p>
-      I’m Ellen, a rising fourth year at the University of Chicago, studying
-      computer science and economics. I first began coding the summer after my
+      I’m Ellen, a software engineer at DoorDash, based in New York City. I first began coding the summer after my
       freshman year in high school and have loved it ever since. I'm especially
       passionate about writing code to address user-facing issues to best
       improve their experience.

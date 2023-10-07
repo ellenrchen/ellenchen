@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   background-color: #F9F9F9;
+  padding-bottom: 2%;
 }
 
 .App-logo {
@@ -44,7 +45,8 @@ h1{
 }
 
 h2{
-  font-size: 36px;
+  font-size: 24px;
+  color: #66BCB1;
 }
 
 /**** MAIN ****/
@@ -57,7 +59,6 @@ h2{
 /**** HOMEPAGE ****/
 
 .homepage{
-  width: 70%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -65,14 +66,19 @@ h2{
   height: 100vh;
 }
 
-.header-img{
-  height: 100vh;
-  width: auto;
+@media (max-width: 768px) {
+  .header-img {
+    width: 90%; /* Scale the image to 70% for mobile devices */
+    height: 90%;
+  }
+  .about-img{
+    width: 90%; /* Scale the image to 70% for mobile devices */
+    height: 90%;
+  }
 }
 
 /**** ABOUT PAGE ****/
 .about{
-  width: 70%;
   margin: 0 auto -10% auto;
   text-align: left;
   display: flex;
@@ -94,7 +100,7 @@ h2{
 
 .work{
   text-align: left;
-  width: 70%;
+  /* width: 70%; */
   margin: 10% auto 0 auto;
   display: flex;
   flex-direction: column;
@@ -118,9 +124,7 @@ h2{
 
 .projects{
   text-align: left;
-  width: 70%;
-  margin: 10% auto 0 auto;
-  height: 60vh;
+  margin: 10% auto 5% auto;
 }
 
 /**** CONTACT ****/
@@ -190,7 +194,7 @@ nav a:hover {
 .socials {
   text-align: right;
   position: fixed;
-  right: 1%;
+  right: 3%;
   bottom: 2%;
   width: 5%;
 }
@@ -257,13 +261,53 @@ nav a:hover {
   .contact{
     width: 90%;
   }
+  .contact-info{
+    width: 60%;
+  }
   .about-text{
     width: 45%;
   }
+  .socials{
+    right: 6%;
+  }
 }
 
-@media(max-height: 750px){
-  .header-img{
-    height: 750px;
+
+@media(max-width: 750px){
+  h1{
+    font-size: 36px;
+  }
+  .homepage{
+    width: 90%;
+  }
+  .about{
+    width: 100%;
+    justify-content: space-around;
+    margin-top: -15%;
+  }
+  .about-text{
+    max-width: 100%;
+    width: 80%;
+  }
+  .work{
+    width: 90%;
+  }
+  .projects{
+    width: 90%;
+  }
+  .contact-info{
+    width: 80%;
+  }
+  .about-imgs{
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 24px 12px;
+  }
+  .socials{
+    right: 15%;
   }
 }
